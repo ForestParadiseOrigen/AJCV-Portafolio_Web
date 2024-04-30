@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex justify-center align-middle h-svh items-center px-72 bg-stone-200">
+    <section>
+        <header class="flex flex-row items-end w-full py-1 justify-end">
+            <span class="border-2 border-rose-600 px-1">TERMINADO</span>
+        </header>
+        <section class=" border-y-2 border-rose-600 p-1 flex flex-row flex-nowrap gap-1">
+            <section class="">
+                <article class="flex flex-row flex-nowrap gap-2">
+                    <svg class="bg-rose-600 w-fit" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="rgba(0, 0, 0, 1)" d="m13.061 4.939-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"></path><path d="M6.061 19.061 13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"></path></svg>
+                    <h1 class="text-stone-950 text-lg font-semibold p-2 bg-rose-600 text-nowrap w-full">001 - MORE COFFEE PARADISE</h1>
+                </article>
+                <article>
+                    <p class="text-sm py-2">MOD de Minecraft 1.16.5 que añade vasos de café al juego. Son distintos tipos de café, distinguidos por colores diferentes.</p>
+                </article>
+            </section>
+            <aside class="text-sm bg-white p-1 text-vertical whitespace-nowrap font-semibold">GITHUB<aside>
+        </section>
+        <footer class="flex flex-row justify-end">
+            <img src="/src/assets/img/QR/SVG/danger-line.svg" alt="">
+        </footer>
+    </section>
+</body>
+</html>
+<style>
+    .text-vertical{
+        writing-mode: vertical-rl; /* vertical-rl para texto vertical de derecha a izquierda, vertical-lr para texto vertical de izquierda a derecha */
+        text-orientation: upright; /* Controla la orientación del texto */
+        white-space: nowrap; /* Evita que el texto se desborde horizontalmente */
+    }
+</style>

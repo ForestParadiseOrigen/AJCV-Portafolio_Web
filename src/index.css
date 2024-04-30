@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended&family=Libre+Barcode+39+Text&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Orbitron:wght@400..900&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Chakra Petch", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.codigoBarrasLetras {
+  font-family: "Libre Barcode 39 Text", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.codigoBarras {
+  font-family: "Libre Barcode 39 Extended", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakraFont {
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
+}
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.react-flow__edge-path {
+  stroke: pink !important;
+  /* Asegúrate de usar !important para sobrescribir estilos aplicados por React Flow */}
+
+

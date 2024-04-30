@@ -1,0 +1,6 @@
+.text-vertical{
+    cursor: pointer;
+    writing-mode: vertical-rl; /* vertical-rl para texto vertical de derecha a izquierda, vertical-lr para texto vertical de izquierda a derecha */
+    text-orientation: upright; /* Controla la orientación del texto */
+    white-space: nowrap; /* Evita que el texto se desborde horizontalmente */
+}
