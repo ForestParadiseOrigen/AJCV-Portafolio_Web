@@ -12,7 +12,7 @@ const ProyectosPersonales = () => {
     return(
         <>
             {/* SECTION: MIS PROYECTOS PERSONALES */}
-            <section className="flex text-start align-middle justify-center flex-col gap-10 py-20 px-52 bg-zinc-900">
+            <section className="scrollBarProyectos flex text-start align-middle justify-center flex-col gap-10 py-20 px-52 bg-zinc-900">
               <article className="w-full flex flex-col justify-center  text-center">
                 <h1 className=' text-4xl font-bold text-rose-600 border-b-2 border-stone-400 mb-3  text-center'>MIS PROYECTOS PERSONALES</h1>
                 <p className='text-xl text-white'>No tengo muchos, pero tengo diferentes ideas. Todo esta enlazado a mi repoditorio de GitHub.</p>

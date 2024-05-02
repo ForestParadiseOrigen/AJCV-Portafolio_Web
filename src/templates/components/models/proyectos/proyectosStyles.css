@@ -4,3 +4,18 @@
     text-orientation: upright; /* Controla la orientación del texto */
     white-space: nowrap; /* Evita que el texto se desborde horizontalmente */
 }
+/* Para Webkit (Safari, Chrome, etc.) */
+.scrollBarProyectos ::-webkit-scrollbar {
+    height: 5px;
+}
+
+/* Para Webkit (Safari, Chrome, etc.) */
+.scrollBarProyectos ::-webkit-scrollbar-track {
+    background: rgb(12 10 9); /* Color de fondo de la barra de desplazamiento */
+}
+
+/* Para Webkit (Safari, Chrome, etc.) */
+.scrollBarProyectos ::-webkit-scrollbar-thumb {
+    background: rgb(225 29 72); 
+}
+

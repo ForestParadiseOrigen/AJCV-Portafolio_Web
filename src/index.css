@@ -18,6 +18,7 @@
   font-style: normal;
 }
 
+/* ----- TIPOGRRAFIAS ALTERNATIVAS PARA USAR EN LA PAGINA ----- */
 .codigoBarrasLetras {
   font-family: "Libre Barcode 39 Text", system-ui;
   font-weight: 400;
@@ -41,6 +42,18 @@
 
 .react-flow__edge-path {
   stroke: pink !important;
-  /* Asegúrate de usar !important para sobrescribir estilos aplicados por React Flow */}
+}
+/* ----- BARRAB DE SCROLL LATERAL DE TODA LA PAGINA ----- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(231 229 228); 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(225 29 72); 
+}
 
 
